@@ -7,6 +7,10 @@ body {
   font-size: 16px;
 }
 
+#desktopnav {
+  display: block;
+}
+
 #mobilenav {
   display: none;
 }
