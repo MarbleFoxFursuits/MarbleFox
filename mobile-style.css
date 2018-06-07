@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Yanone+Kaffeesatz:300,700');
+
+body {
+  color: #222;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  box-sizing: border-box;
+  position: sticky;
+  top:0;
+  background: url("2.jpg");
+  background-size: 100%;
+}
+
+#desktopnav {
+  display: none;
+}
+
+#mobilenav {
+  text-align: center;
+  padding: 0px 3%;
+}
+
+#below a {
+  margin-top: 0px;
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 5px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  box-sizing: border-box;
+  background-color: #222;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+header table {
+  width: 100%;
+}
+
+header td {
+  text-align: center;
+}
+
+header h1{
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-indent: 10px;
+  margin: auto;
+  margin-top: 20px;
+} 
+
+header h2 {
+  margin: auto;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing:20px;
+  text-indent:20px;
+}
+
+article {
+  box-sizing: border-box;
+  padding-bottom: 0;
+  padding: 20px 5%;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+article a {
+  color: #222;
+}
+
+article h1 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 50px;
+  margin: auto;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  padding: 1px 5%;
+  box-sizing: border-box;
+}
+
+footer a {
+  color: #fff;
+}

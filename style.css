@@ -7,7 +7,12 @@ body {
   font-size: 16px;
 }
 
+#mobilenav {
+  display: none;
+}
+
 nav {
+  overflow: hidden;
   box-shadow: 0px 0px 10px #222;
   z-index: 100;
   position: sticky;
@@ -16,7 +21,6 @@ nav {
   height: 7vh;
   background: url("2.jpg");
   background-size; 100%;
-  background-position: center;
   padding: 0px 10%;
   box-sizing: border-box;
 }
@@ -90,6 +94,15 @@ header h2 {
   margin: auto;
 }
 
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin: auto;
+  letter-spacing: 0px;
+  text-indent: 0px;
+}
+
 article {
   padding-bottom: 0;
   padding: 20px 10%;
@@ -120,7 +133,12 @@ article p {
   margin-bottom: auto;
 }
 
+article a {
+  color: #222;
+}
+
 footer {
+  text-align: center;
   background: #222;
   padding: 5px 10%;
   color: #fff;
