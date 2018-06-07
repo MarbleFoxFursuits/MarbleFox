@@ -26,13 +26,12 @@ nav {
 }
 
 #below a {
-  margin-top: 0px;
   display: inline-block;
 }
 
 nav a {
   display: inline-block;
-  margin: 5px;
+  margin: 5px 5px;
   background: #222;
   color: #fff;
   text-decoration: none;
